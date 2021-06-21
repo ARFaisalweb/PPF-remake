@@ -1,106 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav id="nav-color">
-        <ul>
-           <li class="navbar"><a class="nav-link" href="www.facebook.com">About</a></li>
-           <li class="navbar"><a class="nav-link" href="www.facebook.com">Portfolio</a></li>
-           <li class="navbar"><a class="nav-link" href="www.facebook.com">Works</a></li>
-           <li class="navbar"><a class="nav-link" href="www.facebook.com">Contact</a></li>
-        </ul>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul id="nav-bar">
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#Works">Works</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
     </nav>
-    
+
     <section class="top-banner">
-        <div class="container">
-          <h1><span id="article-head1">Hello, I'm</span></h1>
-          <h1><span id="article-head2">A.R. FaisaL</span></h1>
-          <p>A full stack all rounder designer.</p>
-          <button class="container-button"><a class="button-anchor" href="www.hireme.com">Hire Me</a> </button>
-        </div>
-        <div class="container">
-            <img class="profile-img" src="images/profile.png" alt="">
-        </div>
+      <div class="text-container">
+        <h1 class="article-head1">
+          HELLO, I'M <br />
+          <span class="highlighted">A.R. FAISAL</span>
+        </h1>
+        <p>A full stack all rounder designer.</p>
+        <button class="button">Hire Me</button>
+      </div>
+
+      <div class="img-container">
+        <img class="profile-img" src="images/profile.png" alt="" />
+      </div>
     </section>
+
     <section class="top-banner">
-        <div class="container">
-            <img class="profile-img" src="images/profile.png" alt="">
-        </div>
-        <div class="container">
-            <h2><span class="article-head1">About</span></h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the industry's
-            standard dummy text ever since the 1500s, when an unknown
-            printer took a galley of type and scrambled it to make a type
-            specimen book.</p>
-          <button class="container-button"><a class="button-anchor" href="www.hireme.com">Download CV</a> </button>
-        </div>
-    </section>
-    <section class="middle-banner">
-        <div id="middle-headline">Latest Working <span id="text-highligh">Project</span></div>
-        <div class="work-container">
-            <img class="wcontainer-img"  src="images/profile2.png" alt="">
-            <h2>Power-x-gym (gym website)</h2>
-            <p>Lorem Ipsum is simply dummy text of the 
-
-                printing and typesetting industry.</p>
-        </div>
-        <div class="work-container">
-            <img class="wcontainer-img"  src="images/profile3.png" alt="">
-            <h2>Creative Agency</h2>
-            <p>Lorem Ipsum is simply dummy text of the 
-
-                printing and typesetting industry.</p>
-        </div>
-        <div class="work-container">
-            <img class="wcontainer-img" src="images/profile4.png" alt="">
-            <h2>Hard Rock Music</h2>
-            <p>Lorem Ipsum is simply dummy text of the 
-
-                printing and typesetting industry.</p>
-        </div>
-    </section>
-    <section class="bottom-banner">
-        <div>
-            <img class="bottom-banner-img" src="images/profile5.png" alt="">
-            <h2 id="center-text">WORK INQUIRY</h2>
-            <button id="center-button">Let's Chat</button>
-        </div>
-    </section>
-    <section class="form-area">
-        <h2 class="article-head1">Give some information</h2>
-        <form action="get">
-            <label class="abc" for="yname">Your Name :</label>
-            <input class="input-info" type="text" id="yname" placeholder="Your Name...">
-            <label class="abc" for="lname">Last Name :</label>
-            <input class="input-info" type="text" id="lname" placeholder="Last Name...">
-            <label class="abc" for="country">Your Country :</label>
-            <select id="select-input-info" name="Country" id="country">
-                <option value="australia">Australia</option>
-                <option value="usa">USA</option>
-                <option value="bangladesh">Bangladesh</option>
-            </select>
-            <label class="abc" for="mail">Gmail :</label>
-            <input class="input-info" type="gmail" id="mail" placeholder="gmail...">
-            <label class="abc" for="pass">Password :</label>
-            <input class="input-info" type="password" name="" id="pass">
-            <input id="submit-button" id="submit-button" type="submit" value="Submit">
-        </form>
+      <div class="img-container">
+        <img class="profile-img" src="images/profile.png" alt="" />
+      </div>
+      <div class="text-container">
+        <h2 class="article-head1">About</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.
+        </p>
+        <button class="button">Download CV</button>
+      </div>
     </section>
 
-    <footer id="footer-eliments">
-        <span id="footer-headline">Stay connected</span> 
-       <h2 class="article-head1">ARfaisal@gmail.com</h2>
-       <div>
-        <a href="www.be.com"><img class="footer-icons" src="images/icons/Be.png" alt=""></a>
-        <a href="www.facebook.com"><img class="footer-icons" src="images/icons/ff.png" alt=""></a>
-        <a href="www.instagram.com"><img class="footer-icons" src="images/icons/insta.png" alt=""></a>
-       </div>
+    <section id="middle-banner">
+      <h2 id="article-head2">
+        <span class="highlighted">LATEST</span> WORKING PROJECT
+      </h2>
+      <div class="projects-container">
+        <div class="project">
+          <img class="project-img" src="images/profile2.png" alt="" />
+          <h2>Power-x-gym (gym website)</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+        <div class="project">
+          <img class="project-img" src="images/profile3.png" alt="" />
+          <h2>Creative Agency</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+        <div class="project">
+          <img class="project-img" src="images/profile4.png" alt="" />
+          <h2>Hard Rock Music</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="bottom-banner">
+      <div id="img-container">
+        <img id="banner-img" src="images/profile5.png" alt="" />
+        <div id="banner-content">
+          <h2 id="banner-title">WORK INQUIRY</h2>
+          <button id="banner-button">Let's Chat</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="feedback-section">
+      <h3 id="feedback-head">
+        Customer's<span class="highlighted">Feedback</span>
+      </h3>
+      <div id="feedback-container">
+        <div class="feedback">
+          <h3>Mr. John</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="feedback">
+          <h3>Mr. Josef</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="feedback">
+          <h3>Mr. Farhan</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="feedback">
+          <h3>Mr. Khalid</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <h3>STAY CONNECTED</h3>
+      <h2>hello@design.com</h2>
+      <div class="icons">
+        <img src="images/icons/ff.png" alt="" />
+        <img src="images/icons/Be.png" alt="" />
+        <img src="images/icons/insta.png" alt="" />
+      </div>
     </footer>
-</body>
+  </body>
 </html>
